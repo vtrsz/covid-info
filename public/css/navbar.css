@@ -1,0 +1,19 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background-color: #004E98;
+    z-index: 50;
+}
+
+p {
+    color: #fff;
+    font-weight: 900;
+    font-size: xx-large;
+}

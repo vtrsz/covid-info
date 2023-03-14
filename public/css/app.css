@@ -1,0 +1,139 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    background-color: #ededed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-rows: 56px auto 84px;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-country {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
+.main-countries {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: 10px;
+}
+
+.main-countries-flag {
+    height: 140px;
+}
+
+#form-other-countries label {
+    color: #004E98;
+    font-weight: 700;
+}
+
+#form-other-countries select {
+    outline: none;
+    height: 30px;
+    padding: 2px;
+    align-items: center;
+}
+
+#form-other-countries input {
+    font-weight: 500;
+    height: 30px;
+    padding: 2px;
+    color: #fff;
+    background-color: #004E98;
+    transition: all;
+    align-items: center;
+}
+
+#form-other-countries input:hover {
+    transition: all;
+    background-color: #4c98e9;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.compare-country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+#form-compare-countries {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+}
+
+#form-compare-countries label {
+    color: #004E98;
+    font-weight: 700;
+    text-align: center;
+}
+
+#form-compare-countries select {
+    outline: none;
+    height: 30px;
+    padding: 2px;
+}
+
+#form-compare-countries input {
+    font-weight: 500;
+    height: 30px;
+    padding: 2px;
+    color: #fff;
+    background-color: #004E98;
+    transition: all;
+}
+
+#form-compare-countries input:hover {
+    transition: all;
+    background-color: #4c98e9;
+}
+
+.alert {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.alert-error {
+    color: #ff0000;
+}
